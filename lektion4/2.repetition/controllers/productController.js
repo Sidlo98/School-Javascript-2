@@ -1,0 +1,13 @@
+const router = require('express').Router();
+const productModel = require('../models/productModel');
+
+  router.get('/', productModel.getProducts);
+  router.get('/:id', productModel.getProduct);
+
+  router.post('/new', productModel.createProduct);
+
+  router.patch('/:id', productModel.updateProduct);
+
+  router.delete('/:id', productModel.deleteProduct);
+
+module.exports = router;
