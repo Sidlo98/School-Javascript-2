@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const PORT  = process.env.PORT || 9999;
 const serverURI = 'http://localhost:' + PORT;
-const mongoURI = 'mongodb+srv://pontus:bytmig123@cluster0.emss9.mongodb.net/REST?retryWrites=true&w=majority'
+const mongoURI = ''
 
 mongoose
 .set('useCreateIndex', true)
