@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const PORT = process.env.PORT || 8080;
 
 const serverURI = 'http://localhost:' + PORT;
-const mongoURI = 'mongodb+srv://pontus:bytmig123@cluster0.emss9.mongodb.net/Todos?retryWrites=true&w=majority';
+const mongoURI = '';
 
 app.listen(PORT, () => console.log('Webserver running at:' + serverURI));
 
